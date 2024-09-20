@@ -6,4 +6,4 @@ Examples showing how to do many things in Gleam!
 
 ## File system
 
-- [Read and write files](./universal/test/file_system/read_and_write_files.gleam)
+- [Work with files](./universal/test/file_system/work_with_files.gleam)
