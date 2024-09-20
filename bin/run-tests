@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -eu
+
+test_project() {
+  local root=$(pwd)
+  cd $1
+  gleam test
+  cd "$root"
+}
+
+main() {
+  test_project universal
+  test_project erlang
+  test_project javascript
+}
+
+main
