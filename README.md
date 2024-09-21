@@ -2,7 +2,12 @@
 
 Examples showing how to do many things in Gleam!
 
+- [Data structures](#data-structures)
 - [File system](#file-system)
+
+## Data structures
+
+- [Generating UUIDs](./universal/test/file_system/generating_uuids.gleam) (Erlang)
 
 ## File system
 
