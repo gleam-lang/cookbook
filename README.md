@@ -16,4 +16,4 @@ Examples showing how to do many things in Gleam!
 
 ## Formats
 
-- [Work with files](./universal/test/formats/generating_xml.gleam)
+- [Rendering XML](./universal/test/formats/rendering_xml.gleam)
