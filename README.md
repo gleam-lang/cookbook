@@ -4,6 +4,7 @@ Examples showing how to do many things in Gleam!
 
 - [Data structures](#data-structures)
 - [File system](#file-system)
+- [Formats](#formats)
 
 ## Data structures
 
@@ -12,3 +13,7 @@ Examples showing how to do many things in Gleam!
 ## File system
 
 - [Work with files](./universal/test/file_system/work_with_files.gleam)
+
+## Formats
+
+- [Work with files](./universal/test/formats/generating_xml.gleam)
