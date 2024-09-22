@@ -1,4 +1,4 @@
-//// # Generate XML
+//// # Rendering XML
 //// 
 //// The xmb package can be used to generate XML. It works on any target.
 ////

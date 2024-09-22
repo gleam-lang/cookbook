@@ -1,4 +1,4 @@
-//// # Generate JSON
+//// # Rendering HTML
 //// 
 //// Lustre is often used for complex stateful HTML applications, but it also
 //// makes a great type-safe HTML templating system. It works on all targets.

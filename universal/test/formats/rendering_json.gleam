@@ -1,4 +1,4 @@
-//// # Generate JSON
+//// # Rendering JSON
 //// 
 //// The gleam_json package can be used to generate JSON. It works on any
 //// target.

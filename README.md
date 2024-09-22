@@ -2,9 +2,14 @@
 
 Examples showing how to do many things in Gleam!
 
+- [Cryptography](#cryptography)
 - [Data structures](#data-structures)
 - [File system](#file-system)
 - [Formats](#formats)
+
+## Cryptography
+
+- [Hashing data](./universal/test/cryptography/hashing_data.gleam)
 
 ## Data structures
 
