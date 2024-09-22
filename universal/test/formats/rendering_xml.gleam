@@ -5,6 +5,7 @@
 //// ## Dependencies
 ////
 //// - https://hex.pm/packages/xmb
+//// - https://hex.pm/packages/gleam_stdlib
 
 import gleam/string
 import gleam/string_builder

@@ -2,10 +2,15 @@
 
 Examples showing how to do many things in Gleam!
 
+- [Algorithms](#algorithms)
 - [Cryptography](#cryptography)
 - [Data structures](#data-structures)
 - [File system](#file-system)
 - [Formats](#formats)
+
+## Algorithms
+
+- [Sorting lists](./universal/test/algorithms/sorting_lists.gleam)
 
 ## Cryptography
 

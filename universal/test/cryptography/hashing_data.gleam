@@ -6,6 +6,7 @@
 //// ## Dependencies
 ////
 //// - https://hex.pm/packages/gleam_crypto
+//// - https://hex.pm/packages/gleam_stdlib
 
 import gleam/bit_array
 import gleam/crypto
