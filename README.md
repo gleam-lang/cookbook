@@ -16,5 +16,6 @@ Examples showing how to do many things in Gleam!
 
 ## Formats
 
+- [Rendering HTML](./universal/test/formats/rendering_html.gleam)
 - [Rendering JSON](./universal/test/formats/rendering_json.gleam)
 - [Rendering XML](./universal/test/formats/rendering_xml.gleam)
