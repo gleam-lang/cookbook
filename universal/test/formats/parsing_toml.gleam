@@ -1,7 +1,6 @@
 //// # Parsing TOML
 //// 
-//// Lustre is often used for complex stateful HTML applications, but it also
-//// makes a great type-safe HTML templating system. It works on all targets.
+//// The tom library is a TOML parser that supports all targets.
 ////
 //// ## Dependencies
 ////
