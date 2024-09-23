@@ -15,6 +15,7 @@ Examples showing how to do many things in Gleam!
 ## Cryptography
 
 - [Hashing data](./universal/test/cryptography/hashing_data.gleam)
+- [Hashing passwords](./universal/test/cryptography/hashing_passwords.gleam) (Erlang)
 
 ## Data structures
 
