@@ -34,7 +34,7 @@ pub fn main_test() {
 
   // Password hashing is a (deliberately) expensive operation.
   // If you are hashing passwords frequently in your test suite you may want to
-  // configure the hasher to less expensive to run.
+  // configure the hasher to be less expensive to run.
   //
   // NEVER DO THIS OUTSIDE OF TESTS. You must do your research before setting
   // any of these values and ensure you know what you are doing.
