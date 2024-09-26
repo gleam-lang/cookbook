@@ -7,6 +7,7 @@ Examples showing how to do many things in Gleam!
 - [Data structures](#data-structures)
 - [File system](#file-system)
 - [Formats](#formats)
+- [Operating system](#operating-system)
 
 ## Algorithms
 
@@ -31,3 +32,7 @@ Examples showing how to do many things in Gleam!
 - [Rendering HTML](./universal/test/formats/rendering_html.gleam)
 - [Rendering JSON](./universal/test/formats/rendering_json.gleam)
 - [Rendering XML](./universal/test/formats/rendering_xml.gleam)
+
+## Operating system
+
+- [Read environment variables](./universal/test/operating_system/read_environment_variables.gleam)
