@@ -58,7 +58,7 @@ pub fn main_test() {
   // `write_bits` can be used to write bit array data to a file.
   let assert Ok(_) = simplifile.write_bits("tmp/file.bin", <<0, 255>>)
 
-  // `write` can be used to read string contents from a file.
+  // `read` can be used to read string contents from a file.
   let assert Ok("Hello, Joe!") = simplifile.read("tmp/file1.txt")
 
   // It will fail if the contents are not unicode.
