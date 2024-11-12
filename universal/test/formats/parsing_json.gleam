@@ -8,6 +8,7 @@
 
 import decode/zero
 import gleam/json
+import gleam/option
 import gleeunit/should
 
 pub type User {
@@ -32,6 +33,18 @@ pub fn main_test() {
   "{\"scores\": [1, 2, 3]}"
   |> json.decode(zero.run(_, decoder))
   |> should.equal(Ok([1, 2, 3]))
+
+  // Optionals
+  let decoder = {
+    use name <- zero.field("name", zero.optional(zero.string))
+    zero.success(name)
+  }
+  "{\"name\": \"cookbook\"}"
+  |> json.decode(zero.run(_, decoder))
+  |> should.equal(Ok(option.Some("cookbook")))
+  "{\"name\": null}"
+  |> json.decode(zero.run(_, decoder))
+  |> should.equal(Ok(option.None))
 
   // Records
   let decoder = {
