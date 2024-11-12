@@ -22,6 +22,7 @@ lustre = ">= 4.4.4 and < 5.0.0"
 gleam_crypto = ">= 1.3.0 and < 2.0.0"
 tom = ">= 1.1.0 and < 2.0.0"
 envoy = ">= 1.0.2 and < 2.0.0"
+decode = ">= 0.4.1"
 
 [dev-dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
