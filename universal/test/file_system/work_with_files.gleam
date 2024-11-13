@@ -17,7 +17,7 @@ import gleam/string
 import simplifile
 
 pub fn main_test() {
-  // The `delete_all` can be used to delete multiple files or directories.
+  // The `delete_all` function can be used to delete multiple files or directories.
   // We are using it first here to reset the tmp directory to a known state.
   let assert Ok(_) = simplifile.delete_all(["tmp"])
 
