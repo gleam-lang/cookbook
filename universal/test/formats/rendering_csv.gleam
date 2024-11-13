@@ -1,6 +1,6 @@
 //// # Rendering CSV
 //// 
-//// The gsv package can be used to parser and render CSV on all targets.
+//// The gsv package can be used to parse and render CSV on all targets.
 ////
 //// ## Dependencies
 ////

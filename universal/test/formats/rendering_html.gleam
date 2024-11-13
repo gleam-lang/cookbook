@@ -15,7 +15,7 @@ import lustre/element/html
 
 pub fn main_test() {
   // Lustre provides functions for HTML elements and attributes that can be used
-  // to construct a HTML document.
+  // to construct an HTML document.
   //
   let document =
     html.html([], [
