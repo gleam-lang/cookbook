@@ -28,6 +28,7 @@ Examples showing how to do many things in Gleam!
 
 ## Formats
 
+- [Parsing CSV](./universal/test/formats/parsing_csv.gleam)
 - [Parsing TOML](./universal/test/formats/parsing_toml.gleam)
 - [Rendering CSV](./universal/test/formats/rendering_csv.gleam)
 - [Rendering HTML](./universal/test/formats/rendering_html.gleam)
