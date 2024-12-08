@@ -22,7 +22,8 @@ pub fn main_test() {
   |> should.equal(
     "colour,name,score,youtube
 Pink,Lucy,100,
-,Louis,99,@lpil",
+,Louis,99,@lpil
+",
   )
 
   // If you want to have control over the order of the columns than you can use
@@ -36,7 +37,8 @@ Pink,Lucy,100,
   |> should.equal(
     "name,score,youtube,colour
 Lucy,100,,Pink
-Louis,99,@lpil,",
+Louis,99,@lpil,
+",
   )
 
   // You can specify a different line ending and separator with either
@@ -50,6 +52,7 @@ Louis,99,@lpil,",
   |> should.equal(
     "name;score;youtube;colour
 Lucy;100;;Pink
-Louis;99;@lpil;",
+Louis;99;@lpil;
+",
   )
 }

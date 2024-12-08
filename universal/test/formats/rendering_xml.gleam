@@ -8,7 +8,7 @@
 //// - https://hex.pm/packages/gleam_stdlib
 
 import gleam/string
-import gleam/string_builder
+import gleam/string_tree
 import gleeunit/should
 import xmb.{x}
 
@@ -32,9 +32,9 @@ pub fn main_test() {
       ]),
     ])
 
-  // The document can be converted to a string builder, which can be converted
+  // The document can be converted to a string tree, which can be converted
   // to a string if needed.
-  let string = [document] |> xmb.render |> string_builder.to_string
+  let string = [document] |> xmb.render |> string_tree.to_string
 
   string
   |> should.equal(
@@ -63,7 +63,7 @@ pub fn main_test() {
       x("author", [], [xmb.text("Kwame Nkrumah")]),
     ])
     |> xmb.render_fragment
-    |> string_builder.to_string
+    |> string_tree.to_string
 
   string
   |> should.equal(
